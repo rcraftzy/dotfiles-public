@@ -1,0 +1,11 @@
+- clean: ['~']
+
+- defaults:
+    link:
+      create: true
+      force: true
+
+- link:
+    ~/.dotly: os/linux/.dotly
+    ~/.config/nvim/lua/custom: editors/vim
+    ~/.config/wezterm: os/linux/wezterm
